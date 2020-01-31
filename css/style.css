@@ -1,0 +1,53 @@
+.timer {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 75px;
+  background-color: teal;
+}
+
+.label {
+  margin: 5px;
+  color: #eee;
+}
+
+.value {
+  width: 70px;
+  background-color: rgb(255, 51, 0);
+  border: solid 2px rgb(34, 34, 34);
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.textOver {
+  width: 335px;
+  font-size: 60px;
+  color: crimson;
+  font-weight: bold;
+}
+
+.textOver {
+  -webkit-animation: textOver 1s linear infinite;
+  animation: textOver 1s linear infinite;
+}
+@-webkit-keyframes textOver {
+  100% {
+    color: rgba(34, 34, 34, 0);
+  }
+}
+@keyframes textOver {
+  100% {
+    color: rgba(34, 34, 34, 0);
+  }
+}
